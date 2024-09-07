@@ -92,7 +92,6 @@ const Sidebar = () => {
         }  `}
       >
         <Link href="/dashboard" passHref>
-          <a>
             <section
               className="bg-primary hover:bg-primary mt-10 flex w-60 cursor-pointer items-center justify-center rounded-lg 
             py-3
@@ -118,7 +117,6 @@ const Sidebar = () => {
                 )}
               </div>
             </section>
-          </a>
         </Link>
         <section className="my-6">
           {nav.map((_item) => {

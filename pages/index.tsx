@@ -13,11 +13,9 @@ const Home: NextPage = () => {
         quadrorecharge
         {userContext?.user?.displayName && (
           <Link href="/dashboard" passHref>
-            <a>
               <span className="mx-4 cursor-pointer border-2 p-1 px-4 text-sm md:text-2xl">
                 DASHBOARD
               </span>
-            </a>
           </Link>
         )}
       </nav>

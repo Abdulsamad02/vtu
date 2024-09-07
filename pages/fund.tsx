@@ -41,7 +41,7 @@ const Fund: NextPage = () => {
             passHref
             key={item.name.replace(" ", "_")}
           >
-            <a>
+          
               <div className="text-md  m-4  flex w-48 cursor-pointer items-center rounded-md p-3 font-medium text-gray-400 shadow-md">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const Fund: NextPage = () => {
                 </svg>
                 <h2 className="w-[7rem]">{item.name}</h2>
               </div>
-            </a>
+            
           </Link>
         ))}
       </section>

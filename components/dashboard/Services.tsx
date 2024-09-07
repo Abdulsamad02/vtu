@@ -45,7 +45,6 @@ export default function Services() {
           passHref
           key={item.name.replace(" ", "_")}
         >
-          <a>
             <div className="hover:text-primary my-3 mx-1 flex h-40 w-40 cursor-pointer flex-col items-center justify-center bg-white shadow-md transition-all hover:shadow-xl md:mx-0  md:w-[11.5rem]">
               <Image
                 src={`/${item.img}.png`}
@@ -57,7 +56,6 @@ export default function Services() {
               />
               <h4 className="text-center font-medium ">{item.name}</h4>
             </div>
-          </a>
         </Link>
       ))}
     </section>
